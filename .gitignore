@@ -1,0 +1,44 @@
+# Отчеты об ошибках
+logs/
+*.log
+
+# Файлы сборки
+build/
+dist/
+
+# Временные файлы
+*.tmp
+*.bak
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Конфигурационные файлы проекта
+.env
+venv
+
+# Документация
+docs/
+
+# Медиафайлы
+media/
+
+# Отладочная информация
+*.swp
+
+# Дополнительные шаблоны
+**/temp/
+!**/important.txt
